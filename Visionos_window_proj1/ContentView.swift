@@ -23,7 +23,7 @@ struct ContentView: View {
                 .padding(.bottom, 50)
 
             Text("Hello, world!")
-
+            Text("Hello again")
             Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
                 .font(.title)
                 .frame(width: 360)
